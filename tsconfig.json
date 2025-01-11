@@ -16,6 +16,10 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
     "stripInternal": true,
-    "types": ["jest"]
-  }
+    "types": ["jest"],
+    "moduleResolution": "node",
+    "allowJs": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*", "*.ts"]
 }
